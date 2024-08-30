@@ -1,0 +1,130 @@
+.hero {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: $hero-bg;
+  background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    image-set(url('../images/hero/hero-m@1x.avif') type('image/avif'),
+      url(../images/hero/hero-m@1x.webp) type('image/webp'),
+      url(../images/hero/hero-m@1x.jpg));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  &__title {
+    font-weight: 900;
+    font-size: 26px;
+    // line-height: calc(42 / 26);
+    line-height: 162%;
+    letter-spacing: 0.06em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+  }
+
+  // @media screen and (max-width: 480px) {
+  //   font-weight: 700;
+  //   font-size: 20px;
+  //   line-height: calc(30 / 20);
+  //   letter-spacing: 0.04em;
+  // }
+
+  // // База
+  // @media screen and (min-device-pixel-ratio: 2),
+  // screen and (-webkit-min-device-pixel-ratio: 2),
+  // screen and (-o-mini-device-pixel-ratio: 2/1),
+  // screen and (min-resolution: 192dpi),
+  // screen and (min-resolution: 2dppx) {
+  //   background: linear-gradient(to right,
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)),
+  //     url(../images/studio/Hero/m-hero@2x.jpg);
+  // }
+
+  // @media screen and (min-device-pixel-ratio: 3),
+  // screen and (-webkit-min-device-pixel-ratio: 3),
+  // screen and (-o-mini-device-pixel-ratio: 3/1),
+  // screen and (min-resolution: 228dpi),
+  // screen and (min-resolution: 3dppx) {
+  //   background: linear-gradient(to right,
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)),
+  //     url(../images/studio/Hero/m-hero@3x.jpg);
+  // }
+
+  // // Таблетка
+
+  // @media screen and (min-width: 577px) and (max-width: 960px) {
+  //   background: linear-gradient(to right,
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)),
+  //     url(../images/studio/Hero/t-hero@1x.jpg);
+
+  //   @media screen and (min-device-pixel-ratio: 2),
+  //   screen and (-webkit-min-device-pixel-ratio: 2),
+  //   screen and (-o-mini-device-pixel-ratio: 2/1),
+  //   screen and (min-resolution: 192dpi),
+  //   screen and (min-resolution: 2dppx) {
+  //     background: linear-gradient(to right,
+  //         rgba(47, 48, 58, 0.4),
+  //         rgba(47, 48, 58, 0.4)),
+  //       url(../images/studio/Hero/t-hero@2x.jpg);
+
+  //   }
+
+  //   @media screen and (min-device-pixel-ratio: 3),
+  //   screen and (-webkit-min-device-pixel-ratio: 3),
+  //   screen and (-o-mini-device-pixel-ratio: 3/1),
+  //   screen and (min-resolution: 228dpi),
+  //   screen and (min-resolution: 3dppx) {
+  //     background: linear-gradient(to right,
+  //         rgba(47, 48, 58, 0.4),
+  //         rgba(47, 48, 58, 0.4)),
+  //       url(../images/studio/Hero/t-hero@3x.jpg);
+  //     background-size: cover;
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //   }
+  // }
+
+  // // Десктоп
+  // @media screen and (min-width: 960px) {
+  //   background: linear-gradient(to right,
+  //       rgba(47, 48, 58, 0.4),
+  //       rgba(47, 48, 58, 0.4)),
+  //     url(../images/studio/Hero/d-hero@1x.jpg);
+
+  //   @media screen and (min-device-pixel-ratio: 2),
+  //   screen and (-webkit-min-device-pixel-ratio: 2),
+  //   screen and (-o-mini-device-pixel-ratio: 2/1),
+  //   screen and (min-resolution: 192dpi),
+  //   screen and (min-resolution: 2dppx) {
+  //     background: linear-gradient(to right,
+  //         rgba(47, 48, 58, 0.4),
+  //         rgba(47, 48, 58, 0.4)),
+  //       url(../images/studio/Hero/d-hero@2x.jpg);
+  //     background-size: cover;
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //   }
+
+  //   @media screen and (min-device-pixel-ratio: 3),
+  //   screen and (-webkit-min-device-pixel-ratio: 3),
+  //   screen and (-o-mini-device-pixel-ratio: 3/1),
+  //   screen and (min-resolution: 228dpi),
+  //   screen and (min-resolution: 3dppx) {
+  //     background: linear-gradient(to right,
+  //         rgba(47, 48, 58, 0.4),
+  //         rgba(47, 48, 58, 0.4)),
+  //       url(../images/studio/Hero/d-hero@3x.jpg);
+  //     background-size: cover;
+  //     background-position: center;
+  //     background-repeat: no-repeat;
+  //   }
+  // }
+}

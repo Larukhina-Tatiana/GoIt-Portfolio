@@ -3,12 +3,9 @@
     --second-family: "Raleway", sans-serif;
     --accent-color: #2196F3;
 
-    --box-shadow: 0 4px 4px -4px rgba(30, 33, 44, 0.03),
-        0 12px 10px -6px rgba(154, 156, 165, 0.04),
-        0 30px 24px -10px rgba(154, 156, 165, 0.05),
-        0 80px 80px -20px rgba(154, 156, 165, 0.08);
+    --box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-    --border-radius: 30px;
+    --border-radius: 4px;
 
 
     --burger-width: 40px;
@@ -20,7 +17,7 @@
 $text: #000;
 $white: #ffffff;
 $accent: #2196F3;
-
+$hero-bg: #c4c4c4;
 
 @mixin transition ($transition-property: color, $transition-duration: 350ms, $transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)) {
     transition-duration: $transition-duration;
